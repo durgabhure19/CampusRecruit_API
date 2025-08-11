@@ -34,7 +34,7 @@ The project follows a modular layered architecture to ensure maintainability, sc
 ---
 
 ## 📂 Project Structure
-
+```
 CampusRecruit_API/
 ├── src/main/java/com/db/
 │ ├── CampusRecruitApplication.java # Main Spring Boot application entry point
@@ -83,7 +83,7 @@ CampusRecruit_API/
 yaml
 Copy
 Edit
-
+```
 ---
 
 ## 💻 API Endpoints
