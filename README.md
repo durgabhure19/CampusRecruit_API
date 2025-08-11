@@ -79,10 +79,6 @@ CampusRecruit_API/
 │ ├── application.properties # Spring Boot configuration
 │ └── data.sql # Optional: Initial database seed data
 └── pom.xml # Maven configuration
-
-yaml
-Copy
-Edit
 ```
 ---
 
@@ -167,32 +163,30 @@ The project follows a Layered Architecture:
 # Clone the repository
 git clone https://github.com/durgabhure19/CampusRecruit_API.git
 cd CampusRecruit_API
+```
+```
 Configure MySQL
 
 sql
-Copy
-Edit
 CREATE DATABASE campus_recruit;
 Update application.properties
-
+```
+```
 properties
-Copy
-Edit
 spring.datasource.url=jdbc:mysql://localhost:3306/campus_recruit
 spring.datasource.username=YOUR_DB_USERNAME
 spring.datasource.password=YOUR_DB_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+```
+```
 Run the application
 
-bash
-Copy
-Edit
 mvn clean install
 mvn spring-boot:run
-API runs at:
+```
 
-arduino
-Copy
-Edit
+```
+API runs at:
 http://localhost:8080
+```
