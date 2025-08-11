@@ -37,52 +37,49 @@ The project follows a **modular layered architecture** to ensure maintainability
 
 CampusRecruit_API/
 ├── src/main/java/com/db/
-│ ├── CampusRecruitApplication.java # Main Spring Boot application entry poin
-│ ├── controller/ # REST controllers - handle HTTP requests
-│ │ ├── AuthController.java
-│ │ ├── InterviewController.java
-│ │ ├── JobApplicationController.java
-│ │ ├── JobPostingController.java
-│ │ ├── StudentController.java
-│ │ └── UserController.java
-│ ├── dao/ # Data access layer (Repositories / DAO classes)
-│ │ ├── InterviewRepository.java
-│ │ ├── JobApplicationRepository.java
-│ │ ├── JobPostingRepository.java
-│ │ ├── StudentRepository.java
-│ │ └── UserRepository.java
-│ ├── entity/ # Entity classes mapping to database tables
-│ │ ├── Interview.java
-│ │ ├── JobApplication.java
-│ │ ├── JobPosting.java
-│ │ ├── Student.java
-│ │ └── User.java
-│ ├── enums/ # Enum constants used across the app
-│ │ ├── ApplicationStatus.java
-│ │ ├── InterviewStatus.java
-│ │ └── UserRole.java
-│ ├── model/ # Request/Response DTOs
-│ │ ├── LoginRequest.java
-│ │ ├── LoginResponse.java
-│ │ ├── JobApplicationRequest.java
-│ │ ├── JobPostingRequest.java
-│ │ ├── StudentRequest.java
-│ │ └── UserRequest.java
-│ └── service/ # Service layer containing business logic
-│ ├── AuthService.java
-│ ├── InterviewService.java
-│ ├── JobApplicationService.java
-│ ├── JobPostingService.java
-│ ├── StudentService.java
-│ └── UserService.java
+│   ├── CampusRecruitApplication.java           # Main Spring Boot application entry point
+│   ├── controller/                             # REST controllers - handle HTTP requests
+│   │   ├── AuthController.java
+│   │   ├── InterviewController.java
+│   │   ├── JobApplicationController.java
+│   │   ├── JobPostingController.java
+│   │   ├── StudentController.java
+│   │   └── UserController.java
+│   ├── dao/                                    # Data access layer (Repositories / DAO classes)
+│   │   ├── InterviewRepository.java
+│   │   ├── JobApplicationRepository.java
+│   │   ├── JobPostingRepository.java
+│   │   ├── StudentRepository.java
+│   │   └── UserRepository.java
+│   ├── entity/                                 # Entity classes mapping to database tables
+│   │   ├── Interview.java
+│   │   ├── JobApplication.java
+│   │   ├── JobPosting.java
+│   │   ├── Student.java
+│   │   └── User.java
+│   ├── enums/                                  # Enum constants used across the app
+│   │   ├── ApplicationStatus.java
+│   │   ├── InterviewStatus.java
+│   │   └── UserRole.java
+│   ├── model/                                  # Request/Response DTOs
+│   │   ├── LoginRequest.java
+│   │   ├── LoginResponse.java
+│   │   ├── JobApplicationRequest.java
+│   │   ├── JobPostingRequest.java
+│   │   ├── StudentRequest.java
+│   │   └── UserRequest.java
+│   └── service/                                # Service layer containing business logic
+│       ├── AuthService.java
+│       ├── InterviewService.java
+│       ├── JobApplicationService.java
+│       ├── JobPostingService.java
+│       ├── StudentService.java
+│       └── UserService.java
 ├── src/main/resources/
-│ ├── application.properties # Spring Boot configuration
-│ └── data.sql # Optional: Initial database seed data
-└── pom.xml # Maven configuration
+│   ├── application.properties                  # Spring Boot configuration
+│   └── data.sql                                # Optional: Initial database seed data
+└── pom.xml                                     # Maven configuration
 
-pgsql
-Copy
-Edit
 
 ---
 
