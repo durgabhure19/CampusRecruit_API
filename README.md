@@ -172,10 +172,10 @@ CREATE DATABASE campus_recruit;
 Update application.properties
 ```
 ```
-properties
+application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/campus_recruit
-spring.datasource.username=YOUR_DB_USERNAME
-spring.datasource.password=YOUR_DB_PASSWORD
+spring.datasource.username=root
+spring.datasource.password=Root@123
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
